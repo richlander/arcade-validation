@@ -41,7 +41,7 @@ schedules:
 resources:
   containers:
   - container: LinuxContainer
-    image: microsoft/dotnet-buildtools-prereqs:ubuntu-14.04-cross-0cd4667-20170319080304
+    image: microsoft/dotnet-buildtools-prereqs:ubuntu-16.04-cross-20210528184631-044d5b9
 
 stages:
 - stage: build
